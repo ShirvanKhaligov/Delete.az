@@ -1,0 +1,96 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!-- Start Bottom Header -->
+<div style="background: url('~/assets/img/background/blog_bg.jpg') no-repeat center; background-size: cover;" class="page-area">
+    <div class="breadcumb-overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="breadcrumb text-center">
+                    <div class="section-headline white-headline text-center">
+                        <h3>Bloq</h3>
+                    </div>
+                    <ul>
+                        <li class="home-bread"><a style="color: #ffffff;" asp-controller="Home" asp-action="Index">Ana Səhifə</a></li>
+                        <li>Bloq</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END Header -->
+<!--Blog Area Start-->
+<div class="blog-page-area area-padding">
+    <div class="container">
+        <div class="row">
+            <div class="blog-grid home-blog">
+                <!-- Start single blog -->
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-blog">
+                        <div class="blog-image">
+                            <a class="image-scale" asp-controller="Https" asp-action="Index">
+                                <img src="~/upload/news/15b9654ad4668a.png" alt="">
+                            </a>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-title">
+                                <div style="background-color: transparent;" class="blog-meta">
+                                </div>
+                                <a asp-controller="Https" asp-action="Index">
+                                    <h4 style="margin-top: 10px; text-transform: none;" class="text-center">Http ilə Https fərqini bilirsinizmi? </h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End single blog -->
+                <!-- Start single blog -->
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-blog">
+                        <div class="blog-image">
+                            <a class="image-scale" asp-controller="Respons" asp-action="Index"Respons>
+                                <img src="~/upload/news/15b965323c57e0.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-title">
+                                <div style="background-color: transparent;" class="blog-meta">
+                                </div>
+                                <a asp-controller="Respons" asp-action="Index"Respons>
+                                    <h4 style="margin-top: 10px; text-transform: none;" class="text-center">Saytın responsivliyi mütləqdir?</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End single blog -->
+                <!-- Start single blog -->
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-blog">
+                        <div class="blog-image">
+                            <a class="image-scale" asp-controller="SingleWeb" asp-action="Index">
+                                <img src="~/upload/news/15b964f4f5de92.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-title">
+                                <div style="background-color: transparent;" class="blog-meta">
+                                </div>
+                                <a asp-controller="SingleWeb" asp-action="Index">
+                                    <h4 style="margin-top: 10px; text-transform: none;" class="text-center">Dünyanın ilk veb saytını görmüsünüz?</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End single blog -->
+            </div>
+        </div>
+        <!-- End row -->
+    </div>
+</div>
+<!--End of Blog Area-->

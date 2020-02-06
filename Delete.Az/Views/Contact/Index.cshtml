@@ -1,0 +1,92 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<!-- header end -->
+<!-- Start Bottom Header -->
+<div style="background: url('~/assets/img/background/contact_bg.jpg') no-repeat center; background-size: cover;" class="page-area">
+    <div class="breadcumb-overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="breadcrumb text-center">
+                    <div class="section-headline white-headline text-center">
+                        <h3>Əlaqə</h3>
+                    </div>
+                    <ul>
+                        <li class="home-bread"><a style="color: #ffffff;" asp-controller="Home" asp-action="Index">Ana Səhifə</a></li>
+                        <li>Əlaqə</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END Header -->
+<!-- Start contact Area -->
+<div class="contact-page area-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="contact-head">
+                    <h3>Bizimlə Əlaqə</h3>
+                    <p></p>
+                    <div class="contact-icon">
+                        <div class="single-contact">
+                            <a href="tel:+994 55 282 98 92"><i class="fa fa-phone"></i><span>+994 77 460 90 72</span></a>
+                            <a href="mailto:delete.az"><i class="fa fa-envelope"></i><span>info@delete.az</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End contact icon -->
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="contact-form">
+                    <div class="row">
+                        <form id="contactForm" method="POST" action="#" class="contact-form">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="text" id="name" class="form-control" placeholder="Ad Soyad" required data-error="Please enter your name">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <input type="text" id="msg_subject" class="form-control" placeholder="Mövzu" required data-error="Please enter your message subject">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <textarea id="message" rows="7" placeholder="İsmarıc" class="form-control" required data-error="Write your message"></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                                <button type="submit" id="submit" class="contact-btn">Göndər</button>
+                                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- End contact Form -->
+        </div>
+    </div>
+</div>
+<!-- Start contact Area -->
+<div class="map-area">
+    <div class="container-full">
+        <div class="row">
+            <!-- Start contact icon column -->
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <!-- Start Map -->
+                <div class="map-area">
+                    <div id="googleMap" style="width:100%;height:450px;"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d41295.59053856469!2d49.850953626024676!3d40.36659099670888!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d079efb5163%3A0xc20aa51a5f0b5e01!2sCode%20Academy!5e0!3m2!1sen!2s!4v1580840315854!5m2!1sen!2s" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+                </div>
+                <!-- End Map -->
+            </div>
+        </div>
+    </div>
+</div>
